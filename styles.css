@@ -1,0 +1,289 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* share styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.primary-btn{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.section-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    width: 594px;
+    
+}
+
+/* banner section start */
+
+.banner-section{
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h1{
+        color: #272727;
+        font-size: 70px;
+        font-weight: 700;
+        max-width: 708px;
+        margin-bottom: 32px;
+       
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .banner button{
+        margin-top: 32px;
+    }
+/* banner section end */
+
+/* featured section start */
+.featured-section{
+    margin-top: 178px;
+}
+
+.flowers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.flowers img{
+    width: 100%;
+}
+
+.featured-section .section-description{
+    width: 594px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flower{
+    display: flex;
+    width: 350px;
+    height: 500px;
+   padding: 0 10px;
+    border-radius: 300px 300px 0px 0px;
+   
+}
+.flowers a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower-one{
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower-two{
+    background: rgba(5, 151, 160, 0.15);
+}
+.flower-three{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flowers a{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 32px;
+    text-decoration-line: underline;
+}
+
+
+/* featured section end */
+/* Sales section start */
+.sales-section{
+    margin: 128px 0;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.sales-offer .section-title{
+    margin-top: 24px;
+}
+ span{
+    color: #E55473;
+}
+.sales-offer .section-description{
+    margin-top: 24px;
+    text-align: center;
+}
+.sales a{
+    text-decoration: none;
+}
+
+
+.sign-up{
+    margin-top: 32px;
+    text-align: center;
+}
+/* Sales section end */
+
+/* products section start */
+
+.products-section .section-description{
+    text-align: center;
+    margin: 0 auto;
+}
+.products-section{
+    margin-bottom: 128px;
+    text-align: center;
+}
+
+
+
+.products-section button{
+    border: 1px solid #E55473;
+    background-color: transparent;
+    padding: 14px;
+    font-weight: 700;
+    color: #E55473;
+    cursor: pointer;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+.price{
+    margin-top: 14px;
+    color: #736d6d;
+    font-weight: 700;
+}
+
+.products-section button:hover{
+    background-color: #E55473;
+    color: #FFF;
+}
+
+.products-section h3{
+    text-align: center;
+    font-size: 16px;
+  
+}
+.our-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+/* products section end */
+/* instagram-section start */
+
+.instagram-section .section-description{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.instagram-section img{
+    width: 250px;
+}
+
+
+.instagram-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   margin-top: 48px;
+}
+/* instagram-section end */
+
+/* testimonials section start */
+.testimonials{
+    background-image: url(./asstes/images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 128px 0;
+    text-align: center;
+}
+
+.testimonial-info{
+    padding: 120px 287px;
+    
+}
+#email{
+    padding: 22px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 350px;
+    margin-right: 16px;
+}
+.testimonials .subscribe{
+    padding: 18px 30px;
+}
+
+.testimonials .section-description{
+    margin-bottom: 48px;
+}
+
+/* testimonials section end */
+
+/* footer section start */
+footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 128px 0;
+  
+}
+
+footer .section-title{
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+footer .section-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 auto;
+    opacity: .8;
+}
+
+.reserved{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    margin-top: 32px;
+}
+/* footer section end */
